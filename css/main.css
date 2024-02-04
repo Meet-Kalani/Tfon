@@ -1,0 +1,12 @@
+.fh5co-section {
+    margin-top: 5rem;
+}
+
+.fh5co-section .container .row{
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    margin-top: 26rem;
+}

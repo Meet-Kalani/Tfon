@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			color: $brand-white;
 			border: none!important;
 			font-size: 18px;
-			@media screen and(max-width: $screen-sm){
+			@media screen and (max-width: $screen-sm){
 				width: 80%;
 				margin: 0 auto;
 			}
@@ -720,7 +720,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					color: $brand-white!important;
 				}
 				p{
-					@media screen and(max-width: $screen-sm){
+					@media screen and (max-width: $screen-sm){
 						display: none;
 					}
 				}
@@ -1072,7 +1072,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		background-repeat: no-repeat;
 		position: relative;
 		height: 300px;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			height: 400px;
 		}
 	}
@@ -1162,7 +1162,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 		background-repeat: no-repeat;
 		position: relative;
 		height: 300px;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			height: 400px;
 		}
 	}
@@ -1269,7 +1269,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 	.fh5co-footer-links {
 		padding: 0;
 		margin: 0;
-		@media screen and(max-width: $screen-sm){
+		@media screen and (max-width: $screen-sm){
 			margin-bottom: 30px;
 		}
 		li {
@@ -1356,7 +1356,7 @@ box-shadow: 0px 8px 16px -4px rgba(0,0,0,0.13);
 	display: none;
 	@include translateX(270px);
 	@include transition(.5s);
-	@media screen and(max-width: $screen-sm){
+	@media screen and (max-width: $screen-sm){
 		display: block;
 	}
 	.offcanvas & {
@@ -1766,3 +1766,31 @@ textarea {
 .bootstrap-datetimepicker-widget {
 	color: $brand-black!important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
