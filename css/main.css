@@ -10,3 +10,21 @@
 .hero{
     margin-top: 26rem;
 }
+
+@media screen and (max-width: 768px) {
+
+    .hero{
+        margin-top: 18rem;
+    }
+
+    .fh5co-section .container .row{
+        align-items: flex-start;
+    }
+    .fh5co-section .row{
+        flex-direction: column;
+    }
+    
+    .fh5co-section .row .img-wrap{
+        order: 2;
+    }
+}
